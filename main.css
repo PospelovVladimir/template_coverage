@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.header {
+  height: 795px;
+}
+
+.header__top {
+  display: flex;
+}
+
+.header__links {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-around;
+  margin-left: 70px;
+}
+
+.header__links-item {
+  text-decoration: none;
+  color: #252b33;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.header__links-items {
+}
+
+.header__dealers {
+}
+
+.header__contacts {
+}
+
+.header__contacts-telephone {
+}
+
+.header__contacts-customer-service {
+}
+
+.header__language {
+}
+
+.header__auth {
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 115px;
+  height: 115px;
+  background-color: #252b33;
+  cursor: pointer;
+}
+
+.logo__img {
+}
+
+.menu {
+}
+
+.menu__list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu__item {
+  display: inline-block;
+}
+
+.menu__link {
+  /* font-family: "Geometria";
+  font-style: normal; */
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 22px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #252b33;
+  margin-right: 20px;
+}
